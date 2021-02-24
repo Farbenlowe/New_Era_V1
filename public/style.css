@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(250, 249, 249);
+    font-family: 'Staatliches', cursive;
+    font-size: 30px;
+}
+
+.main {
+    width: 100%;
+    text-align: center;
+}
+
+#eingabe {
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 45%;
+    max-width: 400px;
+    height: 40px;
+    background-color: white;
+    box-shadow: silver 3px 4px 3px 0px;
+    padding: 5px;
+    padding-left: 10px;
+    margin-top: -30px;
+}
+
+#eingabe:focus {
+    outline: none;
+}
+
+.suchen {
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #c5a65a;
+    border-radius: 4px;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(.05, #f6dd9f), color-stop(1, #f0c24d));
+    margin: 5px;
+    cursor: pointer;
+    transition: opacity 0.5s;
+}
+
+.suchen:focus {
+    outline: none;
+}
+
+.box {
+    margin-top: 10%;
+}
+
+.login:hover {
+    background-color: #c5a75a28;
+}
+
+.loader {
+    position: absolute;
+    margin-left: 22.5%;
+    padding-top: 20px;
+    width: 10%;
+    max-width: 80px;
+}
+
+.hidden {
+    display: none;
+}
+
+@media screen and (max-width: 1300px) {
+    .loader {
+        margin-left: 35%;
+    }
+}
