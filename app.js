@@ -42,8 +42,7 @@ app.post('/api/orders', cors(corsOptions), (req, res) => {
             url: 'https://app.billbee.io/api/v1/orders/' + id.Id,
             credentials: 'include',
             headers: {
-                'X-Billbee-Api-Key': '6BE75E3B-5827-4EAE-B4AE-A5B8CD47F4E6',
-                'Authorization': 'Basic ZmxlaXNjaGVyQGZhcmJlbmxvZXdlLmRlOmpvbmFocnVzY2g=',
+                // The Authorization
                 'Content-Type': 'application/json',
             }
         };
